@@ -1,6 +1,9 @@
-# Exploits tiny httpd 0.1.0 arbritrary file read vulnerability.
-# python3 POC written by Mark Kaiser for EDB-ID: 42790
+# Exploit Title: tiny httpd 0.1.0 arbritrary file read vulnerability.
+# Date: December 18, 2021
+# Exploit Author: c0braKai
 # recommended files to test with: /etc/hosts or /etc/passwd or /proc/self/stat or /proc/self/environ
+# Version: 1.0.0
+# Tested on: Ubuntu 21.04
 #!/usr/bin/env python3
 
 import socket, time, argparse
